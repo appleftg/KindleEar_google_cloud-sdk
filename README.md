@@ -1,7 +1,7 @@
-# KindleEar        \
-//构建镜像         \
+# KindleEar        
+##//构建镜像         \
 docker build -t kindleear:v1.26.7 .        \
-//运行
+##//运行
 docker run   --restart=always --name kindleear  \
 -p 8080:8080     \
 -e SMTP_HOST=smtp.163.com \
@@ -13,8 +13,8 @@ docker run   --restart=always --name kindleear  \
 -v /home/ft/docker/sync/kindleear/app:/app   \
 appleftg/kindleear:v1.26.7    
 
-//修改推送邮箱    \
-"/kindleear/app/config.py"    \
+##//修改推送邮箱    \
+"/kindleear/app/config.py"    
 
 line 7    SRC_EMAIL = "xxx@163.com"  #Your gmail account for sending mail to Kindle
 
@@ -23,7 +23,7 @@ line 7    SRC_EMAIL = "xxx@163.com"  #Your gmail account for sending mail to Kin
 
 
 
-问题
+##问题
 
 1.推送邮件附件太大
 The request to API call mail.Send() was too large
