@@ -1,6 +1,6 @@
 # KindleEar        
 ##//构建镜像         \
-docker build -t kindleear:v1.26.7 .        \
+docker build -t kindleear:v1.26.9 .        \
 ##//运行
 docker run   --restart=always --name kindleear  \
 -p 8080:8080     \
