@@ -1,6 +1,6 @@
 FROM google/cloud-sdk:275.0.0-alpine
 LABEL NAME="KindleEar"
-LABEL version="1.26.7"
+LABEL version="1.26.9"
 
 
 RUN gcloud components install app-engine-python app-engine-python-extras \
