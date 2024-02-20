@@ -13,6 +13,7 @@ COPY cron-root /var/spool/cron/crontabs/root
 WORKDIR /app
 
 EXPOSE 8080
+EXPOSE 8081
 
 ENV SMTP_HOST=smtp.163.com
 ENV SMTP_PORT=25
