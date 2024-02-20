@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:275.0.0-alpine
+FROM google/cloud-sdk:273.0.0-alpine
 LABEL NAME="KindleEar"
 LABEL version="1.26.9"
 
